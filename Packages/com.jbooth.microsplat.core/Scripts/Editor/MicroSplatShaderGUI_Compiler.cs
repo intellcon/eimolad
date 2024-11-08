@@ -316,18 +316,17 @@ public partial class MicroSplatShaderGUI : ShaderGUI
             keywords[keywords.Length - 4] = "_MSRENDERLOOP_UNITYHDRP2020";
             keywords[keywords.Length - 3] = "_MSRENDERLOOP_UNITYHDRP2021";
             keywords[keywords.Length - 2] = "_MSRENDERLOOP_UNITYHDRP2022";
-            keywords[keywords.Length - 1] = "_MSRENDERLOOP_UNITYHDRP6";
+            keywords[keywords.Length - 1] = "_MSRENDERLOOP_UNITYHDRP2023";
          }
          else if (pipeline == MicroSplatUtilities.PipelineType.UniversalPipeline)
          {
             System.Array.Resize(ref keywords, keywords.Length + 5);
-            
-            keywords[keywords.Length - 5] = "_MSRENDERLOOP_UNITYLD";
-            keywords[keywords.Length - 4] = "_MSRENDERLOOP_UNITYURP2020";
-            keywords[keywords.Length - 3] = "_MSRENDERLOOP_UNITYURP2021";
-            keywords[keywords.Length - 2] = "_MSRENDERLOOP_UNITYURP2022";
-            keywords[keywords.Length - 1] = "_MSRENDERLOOP_UNITYURP6";
-            }
+            keywords[keywords.Length - 4] = "_MSRENDERLOOP_UNITYURP2023";
+            keywords[keywords.Length - 4] = "_MSRENDERLOOP_UNITYLD";
+            keywords[keywords.Length - 3] = "_MSRENDERLOOP_UNITYURP2020";
+            keywords[keywords.Length - 2] = "_MSRENDERLOOP_UNITYURP2021";
+            keywords[keywords.Length - 1] = "_MSRENDERLOOP_UNITYURP2022";
+         }
       }
 
       public void WriteDefines (string[] features, StringBuilder sb)
@@ -514,9 +513,9 @@ public partial class MicroSplatShaderGUI : ShaderGUI
             AddPipelineKeywords(ref features);
                 // TODO: this would be better if we asked the render loop if it is in the feature list, but
                 // would require a change to interface, so wait until we have a version bump.
-#if UNITY_6000_0_OR_NEWER
-            SetPreferedRenderLoopByName(features, "_MSRENDERLOOP_UNITYHDRP6");
-            SetPreferedRenderLoopByName(features, "_MSRENDERLOOP_UNITYURP6");
+#if UNITY_2022_3_OR_NEWER
+            SetPreferedRenderLoopByName(features, "_MSRENDERLOOP_UNITYHDRP2023");
+            SetPreferedRenderLoopByName(features, "_MSRENDERLOOP_UNITYURP2023");
 #elif UNITY_2022_2_OR_NEWER
             SetPreferedRenderLoopByName(features, "_MSRENDERLOOP_UNITYHDRP2022");
             SetPreferedRenderLoopByName(features, "_MSRENDERLOOP_UNITYURP2022");
@@ -547,7 +546,7 @@ public partial class MicroSplatShaderGUI : ShaderGUI
             // in URP/HDRP light layers require this for terrain
             if (features.Contains("_MICROTERRAIN"))
             {
-               sb = sb.Replace("#pragma instancing_options renderinglayer", "#pragma instancing_options assumeuniformscaling nomatrices nolightprobe nolightmap");
+               sb = sb.Replace("#pragma instancing_options renderinglayer", "#pragma instancing_options norenderinglayer assumeuniformscaling nomatrices nolightprobe nolightmap");
             }
 
             string output = sb.ToString ();

@@ -170,10 +170,6 @@ namespace JBooth.MicroSplat
             var tex = t.terrain.terrainData.GetAlphamapTexture (i);
             var path = MicroSplatUtilities.RelativePathFromAsset (t);
             path += "/" + t.name + "_splat" + i + ".tga";
-            if (System.IO.File.Exists(path))
-            {
-                AssetDatabase.MakeEditable(path);
-            }
             System.IO.File.WriteAllBytes (path, tex.EncodeToTGA ());
          }
 
