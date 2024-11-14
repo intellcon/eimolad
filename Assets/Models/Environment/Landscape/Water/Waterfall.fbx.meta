@@ -3,7 +3,12 @@ guid: 9c1fa019ca359bb44b1bf040620f75b9
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: m_waterfall_1
+    second: {fileID: 2100000, guid: 8da1cfc88b07348409aa58b03eb43f00, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

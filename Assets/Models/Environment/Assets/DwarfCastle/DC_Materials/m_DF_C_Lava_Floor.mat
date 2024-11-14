@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: m_DF_C_Lava_Floor
+  m_Shader: {fileID: -6465566751694194690, guid: fb6998ec6ac32cb48a8642b82b366fff, type: 3}
+  m_Parent: {fileID: 2100000, guid: c01821429f2415f4b9c61d311fc09329, type: 2}
+  m_ModifiedSerializedProperties: 4
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 1
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Albedo:
+        m_Texture: {fileID: 2800000, guid: f033ca7f146eda1418d1448b6bb5b7e9, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Emissive:
+        m_Texture: {fileID: 2800000, guid: 478325d7fee8615498675f300cd3e8ff, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MAOG:
+        m_Texture: {fileID: 2800000, guid: f3df765374dd28840aaf6e0f0ef881e6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Normal:
+        m_Texture: {fileID: 2800000, guid: 4e76e8395abda834ab24abfc221dc30c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _AO_Intensity: 2
+    - _AO_Settings_Activate: 0
+    - _Activate_MicroDetail_Normal: 0
+    - _Albedo_Brightness: 0
+    - _Albedo_Contrast: 1.006
+    - _Albedo_Multiply_AO: 0
+    - _Albedo_Settings_Activate: 1
+    - _Animation_Activate: 1
+    - _Animation_Noise_Contrast: 0.673
+    - _Animation_Noise_Scale: 5
+    - _Animation_Speed: 15
+    - _Emissive_Intensity: 5
+    - _Gloss_Intensity: 0
+    - _MicroDetail_Normal_Scale: 1
+    - _Normal_Strength: 5
+    m_Colors:
+    - _Albedo_Tint: {r: 1, g: 1, b: 1, a: 0}
+  m_BuildTextureStacks: []
+--- !u!114 &7786418348559158522
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 7
