@@ -7635,7 +7635,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 681439003}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.11824898, y: -0.0000016911836, z: 0.00000020139372, w: 0.992984}
+  m_LocalRotation: {x: 0.118249, y: -0.0000016564705, z: 0.00000019725998, w: 0.992984}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -8916,6 +8916,63 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7808153423404024476, guid: 4cf296b3cb3b1704faa8e8078f2526a5, type: 3}
   m_PrefabInstance: {fileID: 808795351}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &830345209
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 4dae2227cb2d77344b032a8f07cb8f81, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 740.2
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4dae2227cb2d77344b032a8f07cb8f81, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 330
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4dae2227cb2d77344b032a8f07cb8f81, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1033.7
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4dae2227cb2d77344b032a8f07cb8f81, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4dae2227cb2d77344b032a8f07cb8f81, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4dae2227cb2d77344b032a8f07cb8f81, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4dae2227cb2d77344b032a8f07cb8f81, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4dae2227cb2d77344b032a8f07cb8f81, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4dae2227cb2d77344b032a8f07cb8f81, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4dae2227cb2d77344b032a8f07cb8f81, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4dae2227cb2d77344b032a8f07cb8f81, type: 3}
+      propertyPath: m_Name
+      value: Bridge
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 4dae2227cb2d77344b032a8f07cb8f81, type: 3}
 --- !u!4 &835818042 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 7ebed508195c55b41a6b5630cb335e87, type: 3}
@@ -10304,7 +10361,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.08210085, y: -0.0000017150509, z: 0.00000014128412, w: 0.99662405}
+  m_LocalRotation: {x: 0.08210085, y: -0.0000016464577, z: 0.00000013563348, w: 0.99662405}
   m_LocalPosition: {x: 0.000042822452, y: 3.0673034, z: -12.696052}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -20007,7 +20064,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1664178601}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.08210085, y: -0.0000016979026, z: 0.00000013987145, w: 0.99662405}
+  m_LocalRotation: {x: 0.08210085, y: -0.000001663606, z: 0.00000013704614, w: 0.99662405}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -38478,3 +38535,4 @@ SceneRoots:
   - {fileID: 357310105}
   - {fileID: 843520290}
   - {fileID: 466324}
+  - {fileID: 830345209}
