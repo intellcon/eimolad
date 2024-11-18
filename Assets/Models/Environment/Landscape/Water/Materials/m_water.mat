@@ -79,13 +79,13 @@ Material:
     - _Distance_Contrast: 1
     - _DstBlend: 10
     - _Far_offest: -50
-    - _Far_offest2: -50
+    - _Far_offest2: -43.4
     - _Far_offset: 100
     - _Far_offset1: 100
     - _Metalic: 0
     - _Near_offest: 60
-    - _Near_offest1: 60
-    - _Near_offest2: -30
+    - _Near_offest1: 68.1
+    - _Near_offest2: -26.99
     - _Near_offest_1: -30
     - _Normal_Scale: 5
     - _Normal_Strenght: 1.5
@@ -96,7 +96,7 @@ Material:
     - _Rotate_UV: 0
     - _Smoothness: 1
     - _SrcBlend: 1
-    - _Strenght: 0.2
+    - _Strenght: 0.464
     - _Surface: 1
     - _Tile_Far: 10
     - _Tile_Near: 100
@@ -106,8 +106,8 @@ Material:
     - _ZWriteControl: 0
     m_Colors:
     - _Base_color: {r: 0.8243592, g: 0.84476626, b: 0.8962264, a: 0}
-    - _Deep_Water_Color: {r: 0.17239222, g: 0.21770266, b: 0.24528289, a: 1}
-    - _Shallow_Water_Color: {r: 0.36467603, g: 0.46206036, b: 0.5188679, a: 0.08627451}
+    - _Deep_Water_Color: {r: 0.080366686, g: 0.113024876, b: 0.13207549, a: 1}
+    - _Shallow_Water_Color: {r: 0.13808295, g: 0.20583393, b: 0.2735849, a: 0.08627451}
     - _Tile_Far: {r: 10, g: 10, b: 0, a: 0}
-    - _Tile_Near: {r: 35, g: 35, b: 0, a: 0}
+    - _Tile_Near: {r: 25, g: 25, b: 0, a: 0}
   m_BuildTextureStacks: []

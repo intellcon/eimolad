@@ -118,17 +118,17 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _AO_Intensity: 0.32
+    - _AO_Intensity: 0.43
     - _AO_Settings_Activate: 1
     - _Activate_MicroDetail_Normal: 0
-    - _Albedo_Brightness: 0.55
-    - _Albedo_Contrast: 1
+    - _Albedo_Brightness: 0.79
+    - _Albedo_Contrast: 1.028
     - _Albedo_Multiply_AO: 0
     - _Albedo_Settings_Activate: 1
     - _AlphaClip: 0
     - _AlphaToMask: 0
     - _Animation_Activate: 0
-    - _Animation_Noise_Contrast: 0.9
+    - _Animation_Noise_Contrast: 0.593
     - _Animation_Noise_Scale: 1
     - _Animation_Speed: 1
     - _Blend: 0

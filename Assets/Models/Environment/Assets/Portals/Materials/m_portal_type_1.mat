@@ -109,10 +109,10 @@ Material:
     - _AO_Settings_Activate: 0
     - _Activate_MicroDetail_Normal: 1
     - _Activate_Micro_Detail_Normal: 1
-    - _Albedo_Brightness: 2
-    - _Albedo_Contrast: 1.058
+    - _Albedo_Brightness: 1.53
+    - _Albedo_Contrast: 0.731
     - _Albedo_Intensity: 2
-    - _Albedo_Multiply_AO: 0
+    - _Albedo_Multiply_AO: 1
     - _Albedo_Multiply_Intensity: 1
     - _Albedo_Settings_Activate: 1
     - _AlphaClip: 0
@@ -136,7 +136,7 @@ Material:
     - _Global_noise__Activate: 0
     - _GlossMapScale: 0
     - _Gloss_Intensity: 1.25
-    - _Gloss_Setting_Activation: 1
+    - _Gloss_Setting_Activation: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
     - _Metallic: 0
