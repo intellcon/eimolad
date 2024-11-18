@@ -159,7 +159,7 @@ Material:
     m_Floats:
     - Boolean_33df076976b247a2a8dab089b36d0b89: 1
     - Boolean_3f7fc101151e4131b707a42791e97a87: 0
-    - Boolean_7f51b6a6c137435996ce0b2d7c13b749: 0
+    - Boolean_7f51b6a6c137435996ce0b2d7c13b749: 1
     - Boolean_BEB403F2: 0
     - Normal_intensity_vegetation: 2
     - Vector1_16F2F1E4: -0.855

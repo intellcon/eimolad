@@ -44,7 +44,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - Normal_vegetation:
-        m_Texture: {fileID: 2800000, guid: 327b068a69c298f4389345036790d5f8, type: 3}
+        m_Texture: {fileID: 2800000, guid: 15fbc647dd354d1478542466918bf26a, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _AnisotropyMap:
@@ -88,7 +88,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 4db15df8031b2c84785a2d062f490504, type: 3}
+        m_Texture: {fileID: 2800000, guid: 9bc6b25b9fb66b4499771718d750385c, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MaskMap:
@@ -128,7 +128,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - mask_vegetation:
-        m_Texture: {fileID: 2800000, guid: 26ac8c43656486f4e839e07822fa9756, type: 3}
+        m_Texture: {fileID: 2800000, guid: 0cec07c2a8fe9ba44be452ae219dfdd5, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
@@ -146,8 +146,8 @@ Material:
     m_Ints: []
     m_Floats:
     - Normal_intensity_vegetation: 1
-    - Vector1_16F2F1E4: 0
-    - Vector1_DDCDCAD2: 0
+    - Vector1_16F2F1E4: -0.18
+    - Vector1_DDCDCAD2: 0.59
     - _AORemapMax: 1
     - _AORemapMin: 0
     - _ATDistance: 1

@@ -160,7 +160,7 @@ Material:
     m_Ints: []
     m_Floats:
     - Boolean_3f7fc101151e4131b707a42791e97a87: 0
-    - Boolean_5d00527b3b684cbb96b368d7d4a87861: 0
+    - Boolean_5d00527b3b684cbb96b368d7d4a87861: 1
     - Boolean_8f05bfb3c582445c93d235ec658586eb: 1
     - Normal_intensity_vegetation: 35
     - Vector1_16F2F1E4: -1
