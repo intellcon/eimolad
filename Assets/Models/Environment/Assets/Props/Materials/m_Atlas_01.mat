@@ -120,10 +120,10 @@ Material:
     m_Floats:
     - _AO_Intensity: 0.43
     - _AO_Settings_Activate: 1
-    - _Activate_MicroDetail_Normal: 0
+    - _Activate_MicroDetail_Normal: 1
     - _Albedo_Brightness: 0.79
     - _Albedo_Contrast: 1.028
-    - _Albedo_Multiply_AO: 0
+    - _Albedo_Multiply_AO: 1
     - _Albedo_Settings_Activate: 1
     - _AlphaClip: 0
     - _AlphaToMask: 0
@@ -143,17 +143,17 @@ Material:
     - _DstBlend: 0
     - _DstBlendAlpha: 0
     - _Emissive_Color_Change_Activate: 0
-    - _Emissive_Intensity: 0.5
+    - _Emissive_Intensity: 0.59
     - _EnvironmentReflections: 1
     - _Global_noise_Activate: 0
     - _GlossMapScale: 0
-    - _Gloss_Intensity: 0.5
-    - _Gloss_Setting_Activation: 0
+    - _Gloss_Intensity: -1.16
+    - _Gloss_Setting_Activation: 1
     - _Glossiness: 0
     - _GlossyReflections: 0
     - _Metallic: 0
     - _MicroDetail_Normal_Intensity: 1
-    - _MicroDetail_Normal_Scale: 1
+    - _MicroDetail_Normal_Scale: 8.12
     - _Noise_Intensity: 0
     - _Noise_Scale: 1
     - _Normal_Strength: 1

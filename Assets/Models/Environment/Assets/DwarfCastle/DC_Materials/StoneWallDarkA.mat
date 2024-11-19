@@ -32,7 +32,15 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Ints: []
-    m_Floats: []
+    m_Floats:
+    - _AO_Settings_Activate: 1
+    - _Activate_MicroDetail_Normal: 1
+    - _Albedo_Brightness: 2.04
+    - _Albedo_Contrast: 0.989
+    - _Albedo_Multiply_AO: 1
+    - _Albedo_Settings_Activate: 1
+    - _MicroDetail_Normal_Scale: -5.73
+    - _Normal_Strength: 2
     m_Colors: []
   m_BuildTextureStacks: []
 --- !u!114 &8350595239635552828

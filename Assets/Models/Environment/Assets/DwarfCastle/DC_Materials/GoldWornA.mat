@@ -107,11 +107,11 @@ Material:
     m_Floats:
     - _AO_Intensity: 3
     - _AO_Settings_Activate: 1
-    - _Activate_MicroDetail_Normal: 0
-    - _Albedo_Brightness: 2.68
-    - _Albedo_Contrast: 1.081
+    - _Activate_MicroDetail_Normal: 1
+    - _Albedo_Brightness: 1.48
+    - _Albedo_Contrast: 1.097
     - _Albedo_Multiply_AO: 1
-    - _Albedo_Settings_Activate: 0
+    - _Albedo_Settings_Activate: 1
     - _AlphaClip: 0
     - _AlphaToMask: 0
     - _Animation_Activate: 0
@@ -130,20 +130,20 @@ Material:
     - _DstBlend: 0
     - _DstBlendAlpha: 0
     - _Emissive_Color_Change_Activate: 0
-    - _Emissive_Intensity: 0.5
+    - _Emissive_Intensity: 1
     - _EnvironmentReflections: 1
     - _Global_noise_Activate: 0
     - _GlossMapScale: 0
-    - _Gloss_Intensity: 0.5
-    - _Gloss_Setting_Activation: 0
+    - _Gloss_Intensity: 0.58
+    - _Gloss_Setting_Activation: 1
     - _Glossiness: 0
     - _GlossyReflections: 0
     - _Metallic: 0
-    - _MicroDetail_Normal_Intensity: 1
-    - _MicroDetail_Normal_Scale: 1
+    - _MicroDetail_Normal_Intensity: 3.21
+    - _MicroDetail_Normal_Scale: -12.05
     - _Noise_Intensity: 0
     - _Noise_Scale: 1
-    - _Normal_Strength: 1
+    - _Normal_Strength: -4.2
     - _OcclusionStrength: 1
     - _Parallax: 0.005
     - _QueueControl: 0
@@ -158,11 +158,11 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - _Albedo_Tint: {r: 0.3416583, g: 0.7169812, b: 0.07778571, a: 0}
+    - _Albedo_Tint: {r: 1, g: 1, b: 1, a: 0}
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _Emissive_Color_Multiply: {r: 0, g: 0, b: 0, a: 0}
+    - _Emissive_Color_Multiply: {r: 0.9339623, g: 0.7426014, b: 0, a: 0}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
 --- !u!114 &8350595239635552828
