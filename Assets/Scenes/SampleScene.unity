@@ -14120,7 +14120,7 @@ MonoBehaviour:
   m_VolumeTrigger: {fileID: 0}
   m_VolumeFrameworkUpdateModeOption: 2
   m_RenderPostProcessing: 1
-  m_Antialiasing: 1
+  m_Antialiasing: 0
   m_AntialiasingQuality: 2
   m_StopNaN: 0
   m_Dithering: 0
@@ -14139,7 +14139,7 @@ MonoBehaviour:
     jitterScale: 1
     mipBias: 0
     varianceClampScale: 0.9
-    contrastAdaptiveSharpening: 0
+    contrastAdaptiveSharpening: 1
 --- !u!1001 &965240189
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -30431,7 +30431,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2249691717515905888, guid: e0c3953acc2a5c84684ec64d147bc29c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -56.6
+      value: -57.04
       objectReference: {fileID: 0}
     - target: {fileID: 5310727290122352523, guid: e0c3953acc2a5c84684ec64d147bc29c, type: 3}
       propertyPath: m_LocalPosition.y
