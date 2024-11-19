@@ -129,7 +129,7 @@ Material:
     - _1UV_AO_Activate: 1
     - _1UV_AO_Intensity_E1: 0
     - _1UV_AO_Intensity_E2: 0.23
-    - _1UV_Edge_Contrast: 1.02
+    - _1UV_Edge_Contrast: 1.1
     - _1UV_Normal_Strength: 1
     - _1UV_SmothStep_E1: 0.6
     - _1UV_SmothStep_E2: 0.8
@@ -146,7 +146,7 @@ Material:
     - _2UV_Animation_Speed: 1
     - _2UV_Emissive_Color_Change_Activate: 0
     - _2UV_Emissive_Intensity: 0.5
-    - _2UV_Gloss_Intensity: 0.35
+    - _2UV_Gloss_Intensity: 0.7
     - _2UV_Gloss_Setting_Activation: 1
     - _2UV_MicroDetail_Normal_Intensity: 1
     - _2UV_MicroDetail_Normal_Scale: 20
@@ -183,7 +183,7 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - _1UV_Curvature_Color: {r: 0.37402102, g: 0.38111627, b: 0.38679248, a: 0}
+    - _1UV_Curvature_Color: {r: 0.77254903, g: 0.6091046, b: 0.45490196, a: 0}
     - _2UV_Albedo_Tint: {r: 1, g: 1, b: 1, a: 0}
     - _2UV_Emissive_Color_Multiply: {r: 0, g: 0, b: 0, a: 0}
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}

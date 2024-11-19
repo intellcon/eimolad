@@ -164,8 +164,8 @@ Material:
     - Boolean_5d00527b3b684cbb96b368d7d4a87861: 1
     - Boolean_8f05bfb3c582445c93d235ec658586eb: 1
     - Boolean_BEB403F2: 1
-    - Normal_intensity_vegetation: 5
-    - Vector1_16F2F1E4: 0.438
+    - Normal_intensity_vegetation: 6
+    - Vector1_16F2F1E4: 0.3
     - Vector1_1e8cbc9d6438468987568852e20507fe: 0
     - Vector1_497f19b6433942c8b66ff7fd96d58f38: 0.01
     - Vector1_4dcc9bab45c244c4879d0ebb6a2857ed: 0.5
@@ -175,7 +175,7 @@ Material:
     - Vector1_82f64464d37b4a1db58d85694d73429c: 0.8
     - Vector1_9d08a8daf91945c08a536cac44a65abc: 0.1
     - Vector1_D75841EE: 0.7
-    - Vector1_DDCDCAD2: 0.2
+    - Vector1_DDCDCAD2: 0.25
     - Vector1_a236a00b81304534a1dc773a4479b86f: 1
     - Vector1_b64466b3c71c4e21b3eee17260cb70f3: 0.15
     - Vector1_d0108e9097a040b9bdcdf59ccb184100: 1
@@ -304,7 +304,7 @@ Material:
     - _ZTestGBuffer: 3
     - _ZTestTransparent: 4
     - _ZWrite: 1
-    - _cutoff: 0.32
+    - _cutoff: 0.4
     - auto_red_channel: 0
     - bend_vegetation: 0.6
     - turbulence_vegetation: 0.01
@@ -320,7 +320,7 @@ Material:
     - Wind_direction: {r: 1, g: 0, b: 1, a: 0}
     - _BaseColor: {r: 0.8, g: 0.8, b: 0.8, a: 1}
     - _BaseColorMap_MipInfo: {r: 0, g: 0, b: 0, a: 0}
-    - _Color: {r: 0.8207547, g: 0.7828815, b: 0.53039336, a: 1}
+    - _Color: {r: 0.6603774, g: 0.63499445, b: 0.4516732, a: 1}
     - _DiffusionProfileAsset: {r: -9.374123e+36, g: -0.00000034516725, b: 2.2947224e+13, a: 7.217384e+25}
     - _DoubleSidedConstants: {r: 1, g: 1, b: -1, a: 0}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}

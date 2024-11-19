@@ -162,7 +162,7 @@ Material:
     - Boolean_7f51b6a6c137435996ce0b2d7c13b749: 1
     - Boolean_BEB403F2: 0
     - Normal_intensity_vegetation: 2
-    - Vector1_16F2F1E4: -0.855
+    - Vector1_16F2F1E4: 0.25
     - Vector1_497f19b6433942c8b66ff7fd96d58f38: 0
     - Vector1_4c33d9a155ae42e6a14b9a00011efd65: 0.055
     - Vector1_4c79da0480814be5aee9322c1a0bbb84: 2
