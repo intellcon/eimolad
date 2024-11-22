@@ -39,12 +39,28 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _DetailNoise:
+        m_Texture: {fileID: 2800000, guid: c3e57cb2426d34f64af1fc986aa89fcf, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _Diffuse:
         m_Texture: {fileID: 18700000, guid: bf2a5b21ae708c64f9c0422f78d0dcb4, type: 2}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _DistanceNoise:
+        m_Texture: {fileID: 2800000, guid: c3e57cb2426d34f64af1fc986aa89fcf, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _MainTex:
         m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalNoise:
+        m_Texture: {fileID: 2800000, guid: cfa942d94204a4aeb970870316799af2, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalNoise2:
+        m_Texture: {fileID: 2800000, guid: 0dfc76f6aeb2a4b4ab78b17faf5a32ea, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _NormalSAO:
@@ -56,7 +72,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _PerTexProps:
-        m_Texture: {fileID: 5116107564329157561, guid: 217dbf8f7b3a8cc4a8b344747f7e193d, type: 2}
+        m_Texture: {fileID: -2239141078251759730, guid: 217dbf8f7b3a8cc4a8b344747f7e193d, type: 2}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _TerrainHeightmapTexture:
@@ -86,7 +102,13 @@ Material:
     m_Ints: []
     m_Floats:
     - _Contrast: 0.4
+    - _DistanceResampleAlbedoStrength: 1
     m_Colors:
+    - _DetailNoiseScaleStrengthFade: {r: 10, g: 0.3, b: 65, a: 0}
+    - _DistanceNoiseScaleStrengthFade: {r: 2, g: 0.5, b: 15, a: 35}
+    - _NormalNoiseScaleStrength: {r: 60, g: 0.5, b: 0, a: 0}
+    - _NormalNoiseScaleStrength2: {r: 8, g: 0.5, b: 0, a: 0}
+    - _ResampleDistanceParams: {r: 0.5, g: 15, b: 25, a: 0}
     - _TriplanarUVScale: {r: 1, g: 1, b: 0, a: 0}
     - _UVMeshRange: {r: 0, g: 0, b: 1, a: 1}
     - _UVScale: {r: 5, g: 5, b: 0, a: 0}
