@@ -121,8 +121,8 @@ Material:
     - _AO_Intensity: 0.43
     - _AO_Settings_Activate: 1
     - _Activate_MicroDetail_Normal: 1
-    - _Albedo_Brightness: 0.79
-    - _Albedo_Contrast: 1.028
+    - _Albedo_Brightness: 0.51
+    - _Albedo_Contrast: 1.5
     - _Albedo_Multiply_AO: 1
     - _Albedo_Settings_Activate: 1
     - _AlphaClip: 0

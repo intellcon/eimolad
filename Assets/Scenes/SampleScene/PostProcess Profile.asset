@@ -158,12 +158,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   active: 1
   texture:
-    m_OverrideState: 0
-    m_Value: {fileID: 0}
+    m_OverrideState: 1
+    m_Value: {fileID: 2800000, guid: 962b4819f23645a4894d27306827f0ae, type: 3}
     dimension: 1
   contribution:
-    m_OverrideState: 0
-    m_Value: 0
+    m_OverrideState: 1
+    m_Value: 0.5
 --- !u!114 &8507692546405002349
 MonoBehaviour:
   m_ObjectHideFlags: 3
