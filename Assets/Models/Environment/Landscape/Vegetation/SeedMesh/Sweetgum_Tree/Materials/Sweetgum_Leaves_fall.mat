@@ -162,14 +162,14 @@ Material:
     - Boolean_3f7fc101151e4131b707a42791e97a87: 0
     - Boolean_5d00527b3b684cbb96b368d7d4a87861: 1
     - Boolean_8f05bfb3c582445c93d235ec658586eb: 1
-    - Normal_intensity_vegetation: 10.89
+    - Normal_intensity_vegetation: 50
     - Vector1_16F2F1E4: -1
     - Vector1_1e8cbc9d6438468987568852e20507fe: 0
     - Vector1_75aa5bc7e21e4586994ff9264c97ec84: 2
     - Vector1_813F3AD6: 0
     - Vector1_82f64464d37b4a1db58d85694d73429c: 0.8
     - Vector1_9d08a8daf91945c08a536cac44a65abc: 0.1
-    - Vector1_DDCDCAD2: 0
+    - Vector1_DDCDCAD2: -0.261
     - Vector1_b64466b3c71c4e21b3eee17260cb70f3: 0.15
     - _AORemapMax: 1
     - _AORemapMin: 0
@@ -297,7 +297,7 @@ Material:
     - Vector3_8df6f0d427cb4bed9ab0ed9fd7ef1f3d: {r: 1, g: 0, b: 1, a: 0}
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _BaseColorMap_MipInfo: {r: 0, g: 0, b: 0, a: 0}
-    - _Color: {r: 0.5, g: 0.4787736, b: 0.4787736, a: 1}
+    - _Color: {r: 0.6415094, g: 0.56585974, b: 0.56585974, a: 1}
     - _DiffusionProfileAsset: {r: -9.374123e+36, g: -0.00000034516725, b: 2.2947224e+13, a: 7.217384e+25}
     - _DoubleSidedConstants: {r: 1, g: 1, b: -1, a: 0}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
