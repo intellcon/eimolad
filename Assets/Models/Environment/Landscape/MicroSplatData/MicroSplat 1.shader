@@ -153,7 +153,6 @@ Shader "Ground_area2"
       #define _PERTEXHEIGHTCONTRAST 1
       #define _PERTEXSATURATION 1
       #define _PERTEXINTERPCONTRAST 1
-      #define _PERTEXTINT 1
       #define _PERTEXBRIGHTNESS 1
       #define _PERTEXCOLORINTENSITY 1
       #define _PERTEXAOSTR 1
@@ -5720,7 +5719,6 @@ float3 GetTessFactors ()
       #define _PERTEXHEIGHTCONTRAST 1
       #define _PERTEXSATURATION 1
       #define _PERTEXINTERPCONTRAST 1
-      #define _PERTEXTINT 1
       #define _PERTEXBRIGHTNESS 1
       #define _PERTEXCOLORINTENSITY 1
       #define _PERTEXAOSTR 1
@@ -11241,7 +11239,6 @@ float3 GetTessFactors ()
       #define _PERTEXHEIGHTCONTRAST 1
       #define _PERTEXSATURATION 1
       #define _PERTEXINTERPCONTRAST 1
-      #define _PERTEXTINT 1
       #define _PERTEXBRIGHTNESS 1
       #define _PERTEXCOLORINTENSITY 1
       #define _PERTEXAOSTR 1
@@ -16677,7 +16674,6 @@ float3 GetTessFactors ()
       #define _PERTEXHEIGHTCONTRAST 1
       #define _PERTEXSATURATION 1
       #define _PERTEXINTERPCONTRAST 1
-      #define _PERTEXTINT 1
       #define _PERTEXBRIGHTNESS 1
       #define _PERTEXCOLORINTENSITY 1
       #define _PERTEXAOSTR 1
@@ -22109,7 +22105,6 @@ float3 GetTessFactors ()
       #define _PERTEXHEIGHTCONTRAST 1
       #define _PERTEXSATURATION 1
       #define _PERTEXINTERPCONTRAST 1
-      #define _PERTEXTINT 1
       #define _PERTEXBRIGHTNESS 1
       #define _PERTEXCOLORINTENSITY 1
       #define _PERTEXAOSTR 1
@@ -27545,7 +27540,6 @@ float3 GetTessFactors ()
       #define _PERTEXHEIGHTCONTRAST 1
       #define _PERTEXSATURATION 1
       #define _PERTEXINTERPCONTRAST 1
-      #define _PERTEXTINT 1
       #define _PERTEXBRIGHTNESS 1
       #define _PERTEXCOLORINTENSITY 1
       #define _PERTEXAOSTR 1
@@ -32966,7 +32960,7 @@ float3 GetTessFactors ()
       
       
    }
-   Dependency "BaseMapShader" =  "Hidden/Ground_area2_Base143166996"
-   Fallback "Hidden/Ground_area2_Base143166996"
+   Dependency "BaseMapShader" =  "Hidden/Ground_area2_Base2141466959"
+   Fallback "Hidden/Ground_area2_Base2141466959"
    CustomEditor "MicroSplatShaderGUI"
 }
