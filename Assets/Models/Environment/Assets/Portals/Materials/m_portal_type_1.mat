@@ -105,8 +105,8 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _AO_Intensity: 0.25
-    - _AO_Settings_Activate: 0
+    - _AO_Intensity: 0.1
+    - _AO_Settings_Activate: 1
     - _Activate_MicroDetail_Normal: 1
     - _Activate_Micro_Detail_Normal: 1
     - _Albedo_Brightness: 1.62
@@ -129,7 +129,7 @@ Material:
     - _DetailAlbedoMapScale: 1
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
-    - _Emissive_Color_Change_Activate: 1
+    - _Emissive_Color_Change_Activate: 0
     - _Emissive_Intensity: 2500
     - _EnvironmentReflections: 1
     - _Global_noise_Activate: 0
@@ -164,7 +164,7 @@ Material:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _Emissive_Color_Multiply: {r: 1, g: 0.007987976, b: 0, a: 0}
+    - _Emissive_Color_Multiply: {r: 1, g: 0.007843138, b: 0, a: 0}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
 --- !u!114 &9068050174145255000

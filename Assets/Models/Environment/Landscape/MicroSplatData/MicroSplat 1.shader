@@ -172,11 +172,11 @@ Shader "Ground_area2"
       #define _PERTEXNORMALNOISESTRENGTH 1
       #define _NORMALNOISE2 1
       #define _MSRENDERLOOP_UNITYURP2021 1
-      #define  1
       #define _MSRENDERLOOP_UNITYLD 1
       #define _MSRENDERLOOP_UNITYURP2020 1
       #define _MSRENDERLOOP_UNITYURP2021 1
       #define _MSRENDERLOOP_UNITYURP2022 1
+      #define _MSRENDERLOOP_UNITYURP6 1
 
 
 
@@ -594,7 +594,14 @@ Shader "Ground_area2"
          float3 surfBitangent;
          float3 surfNormal;
       #endif
-
+      
+      #if _MICROVERSEPREVIEW
+         #if (_MICROTERRAIN || _MICROMESHTERRAIN)
+            TEXTURE2D(_TerrainHeightmapTexture);
+            float4 _TerrainHeightmapTexture_TexelSize;
+            TEXTURE2D(_TerrainNormalmapTexture);
+         #endif
+      #endif
       float4 _UVMeshRange;
 
          #if _DETAILNOISE
@@ -673,12 +680,13 @@ TEXTURE2D(_MainTex);
          float4    _TerrainNormalmapTexture_TexelSize;
       #endif
 
+#if !_MICROVERSEPREVIEW
       #if (_MICROTERRAIN || _MICROMESHTERRAIN)
           TEXTURE2D(_TerrainHeightmapTexture);
           float4 _TerrainHeightmapTexture_TexelSize;
           TEXTURE2D(_TerrainNormalmapTexture);
       #endif
-
+#endif
       UNITY_INSTANCING_BUFFER_START(Terrain)
           UNITY_DEFINE_INSTANCED_PROP(float4, _TerrainPatchInstanceData)  // float4(xBase, yBase, skipScale, ~)
       UNITY_INSTANCING_BUFFER_END(Terrain)          
@@ -5731,11 +5739,11 @@ float3 GetTessFactors ()
       #define _PERTEXNORMALNOISESTRENGTH 1
       #define _NORMALNOISE2 1
       #define _MSRENDERLOOP_UNITYURP2021 1
-      #define  1
       #define _MSRENDERLOOP_UNITYLD 1
       #define _MSRENDERLOOP_UNITYURP2020 1
       #define _MSRENDERLOOP_UNITYURP2021 1
       #define _MSRENDERLOOP_UNITYURP2022 1
+      #define _MSRENDERLOOP_UNITYURP6 1
 
 
 
@@ -6152,7 +6160,14 @@ float3 GetTessFactors ()
          float3 surfBitangent;
          float3 surfNormal;
       #endif
-
+      
+      #if _MICROVERSEPREVIEW
+         #if (_MICROTERRAIN || _MICROMESHTERRAIN)
+            TEXTURE2D(_TerrainHeightmapTexture);
+            float4 _TerrainHeightmapTexture_TexelSize;
+            TEXTURE2D(_TerrainNormalmapTexture);
+         #endif
+      #endif
       float4 _UVMeshRange;
 
          #if _DETAILNOISE
@@ -6231,12 +6246,13 @@ TEXTURE2D(_MainTex);
          float4    _TerrainNormalmapTexture_TexelSize;
       #endif
 
+#if !_MICROVERSEPREVIEW
       #if (_MICROTERRAIN || _MICROMESHTERRAIN)
           TEXTURE2D(_TerrainHeightmapTexture);
           float4 _TerrainHeightmapTexture_TexelSize;
           TEXTURE2D(_TerrainNormalmapTexture);
       #endif
-
+#endif
       UNITY_INSTANCING_BUFFER_START(Terrain)
           UNITY_DEFINE_INSTANCED_PROP(float4, _TerrainPatchInstanceData)  // float4(xBase, yBase, skipScale, ~)
       UNITY_INSTANCING_BUFFER_END(Terrain)          
@@ -11244,11 +11260,11 @@ float3 GetTessFactors ()
       #define _PERTEXNORMALNOISESTRENGTH 1
       #define _NORMALNOISE2 1
       #define _MSRENDERLOOP_UNITYURP2021 1
-      #define  1
       #define _MSRENDERLOOP_UNITYLD 1
       #define _MSRENDERLOOP_UNITYURP2020 1
       #define _MSRENDERLOOP_UNITYURP2021 1
       #define _MSRENDERLOOP_UNITYURP2022 1
+      #define _MSRENDERLOOP_UNITYURP6 1
 
 
 
@@ -11651,7 +11667,14 @@ float3 GetTessFactors ()
          float3 surfBitangent;
          float3 surfNormal;
       #endif
-
+      
+      #if _MICROVERSEPREVIEW
+         #if (_MICROTERRAIN || _MICROMESHTERRAIN)
+            TEXTURE2D(_TerrainHeightmapTexture);
+            float4 _TerrainHeightmapTexture_TexelSize;
+            TEXTURE2D(_TerrainNormalmapTexture);
+         #endif
+      #endif
       float4 _UVMeshRange;
 
          #if _DETAILNOISE
@@ -11730,12 +11753,13 @@ TEXTURE2D(_MainTex);
          float4    _TerrainNormalmapTexture_TexelSize;
       #endif
 
+#if !_MICROVERSEPREVIEW
       #if (_MICROTERRAIN || _MICROMESHTERRAIN)
           TEXTURE2D(_TerrainHeightmapTexture);
           float4 _TerrainHeightmapTexture_TexelSize;
           TEXTURE2D(_TerrainNormalmapTexture);
       #endif
-
+#endif
       UNITY_INSTANCING_BUFFER_START(Terrain)
           UNITY_DEFINE_INSTANCED_PROP(float4, _TerrainPatchInstanceData)  // float4(xBase, yBase, skipScale, ~)
       UNITY_INSTANCING_BUFFER_END(Terrain)          
@@ -16672,11 +16696,11 @@ float3 GetTessFactors ()
       #define _PERTEXNORMALNOISESTRENGTH 1
       #define _NORMALNOISE2 1
       #define _MSRENDERLOOP_UNITYURP2021 1
-      #define  1
       #define _MSRENDERLOOP_UNITYLD 1
       #define _MSRENDERLOOP_UNITYURP2020 1
       #define _MSRENDERLOOP_UNITYURP2021 1
       #define _MSRENDERLOOP_UNITYURP2022 1
+      #define _MSRENDERLOOP_UNITYURP6 1
 
 
 
@@ -17081,7 +17105,14 @@ float3 GetTessFactors ()
          float3 surfBitangent;
          float3 surfNormal;
       #endif
-
+      
+      #if _MICROVERSEPREVIEW
+         #if (_MICROTERRAIN || _MICROMESHTERRAIN)
+            TEXTURE2D(_TerrainHeightmapTexture);
+            float4 _TerrainHeightmapTexture_TexelSize;
+            TEXTURE2D(_TerrainNormalmapTexture);
+         #endif
+      #endif
       float4 _UVMeshRange;
 
          #if _DETAILNOISE
@@ -17160,12 +17191,13 @@ TEXTURE2D(_MainTex);
          float4    _TerrainNormalmapTexture_TexelSize;
       #endif
 
+#if !_MICROVERSEPREVIEW
       #if (_MICROTERRAIN || _MICROMESHTERRAIN)
           TEXTURE2D(_TerrainHeightmapTexture);
           float4 _TerrainHeightmapTexture_TexelSize;
           TEXTURE2D(_TerrainNormalmapTexture);
       #endif
-
+#endif
       UNITY_INSTANCING_BUFFER_START(Terrain)
           UNITY_DEFINE_INSTANCED_PROP(float4, _TerrainPatchInstanceData)  // float4(xBase, yBase, skipScale, ~)
       UNITY_INSTANCING_BUFFER_END(Terrain)          
@@ -22096,11 +22128,11 @@ float3 GetTessFactors ()
       #define _PERTEXNORMALNOISESTRENGTH 1
       #define _NORMALNOISE2 1
       #define _MSRENDERLOOP_UNITYURP2021 1
-      #define  1
       #define _MSRENDERLOOP_UNITYLD 1
       #define _MSRENDERLOOP_UNITYURP2020 1
       #define _MSRENDERLOOP_UNITYURP2021 1
       #define _MSRENDERLOOP_UNITYURP2022 1
+      #define _MSRENDERLOOP_UNITYURP6 1
 
 
 
@@ -22508,7 +22540,14 @@ float3 GetTessFactors ()
          float3 surfBitangent;
          float3 surfNormal;
       #endif
-
+      
+      #if _MICROVERSEPREVIEW
+         #if (_MICROTERRAIN || _MICROMESHTERRAIN)
+            TEXTURE2D(_TerrainHeightmapTexture);
+            float4 _TerrainHeightmapTexture_TexelSize;
+            TEXTURE2D(_TerrainNormalmapTexture);
+         #endif
+      #endif
       float4 _UVMeshRange;
 
          #if _DETAILNOISE
@@ -22587,12 +22626,13 @@ TEXTURE2D(_MainTex);
          float4    _TerrainNormalmapTexture_TexelSize;
       #endif
 
+#if !_MICROVERSEPREVIEW
       #if (_MICROTERRAIN || _MICROMESHTERRAIN)
           TEXTURE2D(_TerrainHeightmapTexture);
           float4 _TerrainHeightmapTexture_TexelSize;
           TEXTURE2D(_TerrainNormalmapTexture);
       #endif
-
+#endif
       UNITY_INSTANCING_BUFFER_START(Terrain)
           UNITY_DEFINE_INSTANCED_PROP(float4, _TerrainPatchInstanceData)  // float4(xBase, yBase, skipScale, ~)
       UNITY_INSTANCING_BUFFER_END(Terrain)          
@@ -27524,11 +27564,11 @@ float3 GetTessFactors ()
       #define _PERTEXNORMALNOISESTRENGTH 1
       #define _NORMALNOISE2 1
       #define _MSRENDERLOOP_UNITYURP2021 1
-      #define  1
       #define _MSRENDERLOOP_UNITYLD 1
       #define _MSRENDERLOOP_UNITYURP2020 1
       #define _MSRENDERLOOP_UNITYURP2021 1
       #define _MSRENDERLOOP_UNITYURP2022 1
+      #define _MSRENDERLOOP_UNITYURP6 1
 
 
 
@@ -27943,7 +27983,14 @@ float3 GetTessFactors ()
          float3 surfBitangent;
          float3 surfNormal;
       #endif
-
+      
+      #if _MICROVERSEPREVIEW
+         #if (_MICROTERRAIN || _MICROMESHTERRAIN)
+            TEXTURE2D(_TerrainHeightmapTexture);
+            float4 _TerrainHeightmapTexture_TexelSize;
+            TEXTURE2D(_TerrainNormalmapTexture);
+         #endif
+      #endif
       float4 _UVMeshRange;
 
          #if _DETAILNOISE
@@ -28022,12 +28069,13 @@ TEXTURE2D(_MainTex);
          float4    _TerrainNormalmapTexture_TexelSize;
       #endif
 
+#if !_MICROVERSEPREVIEW
       #if (_MICROTERRAIN || _MICROMESHTERRAIN)
           TEXTURE2D(_TerrainHeightmapTexture);
           float4 _TerrainHeightmapTexture_TexelSize;
           TEXTURE2D(_TerrainNormalmapTexture);
       #endif
-
+#endif
       UNITY_INSTANCING_BUFFER_START(Terrain)
           UNITY_DEFINE_INSTANCED_PROP(float4, _TerrainPatchInstanceData)  // float4(xBase, yBase, skipScale, ~)
       UNITY_INSTANCING_BUFFER_END(Terrain)          

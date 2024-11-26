@@ -107,7 +107,7 @@ Material:
     - _ZWriteControl: 0
     m_Colors:
     - _Base_color: {r: 0.8243592, g: 0.84476626, b: 0.8962264, a: 0}
-    - _Deep_Water_Color: {r: 0.080366686, g: 0.113024876, b: 0.13207549, a: 1}
+    - _Deep_Water_Color: {r: 0.042052317, g: 0.05804258, b: 0.066037714, a: 1}
     - _Shallow_Water_Color: {r: 0, g: 0.026812326, b: 0.05660379, a: 0.08627451}
     - _Tile_Far: {r: 10, g: 10, b: 0, a: 0}
     - _Tile_Near: {r: 25, g: 25, b: 0, a: 0}
