@@ -132,12 +132,12 @@ Material:
     - _1UV_Edge_Contrast: 1.1
     - _1UV_Normal_Strength: 1
     - _1UV_SmothStep_E1: 0.6
-    - _1UV_SmothStep_E2: 0.8
+    - _1UV_SmothStep_E2: 1.01
     - _2UV_AO_Intensity: 1
     - _2UV_AO_Settings_Activate: 1
     - _2UV_Activate_MicroDetail_Normal: 1
-    - _2UV_Albedo_Brightness: 1.04
-    - _2UV_Albedo_Contrast: 1.035
+    - _2UV_Albedo_Brightness: 1.19
+    - _2UV_Albedo_Contrast: 1.256
     - _2UV_Albedo_Multiply_AO: 1
     - _2UV_Albedo_Settings_Activate: 1
     - _2UV_Animation_Activate: 0
@@ -152,8 +152,8 @@ Material:
     - _2UV_MicroDetail_Normal_Scale: 20
     - _2UV_Normal_Strength: 0.05
     - _2UV_Rotate: 0
-    - _2UV_Saturation: 1
-    - _2UV_Tile: 20
+    - _2UV_Saturation: 0.33
+    - _2UV_Tile: 50
     - _AlphaClip: 0
     - _Blend: 0
     - _BumpScale: 1

@@ -44,8 +44,8 @@ Material:
     - _AO_Intensity: 1.8
     - _AO_Settings_Activate: 1
     - _Activate_MicroDetail_Normal: 0
-    - _Albedo_Brightness: 0
-    - _Albedo_Contrast: 0.666
+    - _Albedo_Brightness: 0.2
+    - _Albedo_Contrast: 0.908
     - _Albedo_Multiply_AO: 1
     - _Albedo_Settings_Activate: 1
     - _Animation_Activate: 1
@@ -53,16 +53,16 @@ Material:
     - _Animation_Noise_Scale: 20
     - _Animation_Speed: 40
     - _Emissive_Color_Change_Activate: 0
-    - _Emissive_Intensity: 4.26
+    - _Emissive_Intensity: 2.27
     - _Global_noise_Activate: 0
-    - _Gloss_Intensity: 0
+    - _Gloss_Intensity: 0.45
     - _Gloss_Setting_Activation: 1
     - _MicroDetail_Normal_Intensity: 1
     - _MicroDetail_Normal_Scale: 1
-    - _Normal_Strength: 1
+    - _Normal_Strength: 0.53
     m_Colors:
-    - _Albedo_Tint: {r: 1, g: 1, b: 1, a: 0}
-    - _Emissive_Color_Multiply: {r: 0.4716981, g: 0.4716981, b: 0.4716981, a: 0}
+    - _Albedo_Tint: {r: 0.6415094, g: 0, b: 0, a: 0}
+    - _Emissive_Color_Multiply: {r: 0.6037736, g: 0.43574226, b: 0.43574226, a: 0}
   m_BuildTextureStacks: []
 --- !u!114 &7786418348559158522
 MonoBehaviour:

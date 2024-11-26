@@ -31,16 +31,12 @@ Material:
         m_Texture: {fileID: 2800000, guid: f885d806748d3ba4885ee1d98b0089da, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_5451ee6c3f2f40ac8a76154326c18fba_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: 1830fd30452178040b29d22d026c0a1e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     m_Ints: []
-    m_Floats:
-    - _AO_Settings_Activate: 1
-    - _Activate_MicroDetail_Normal: 1
-    - _Albedo_Brightness: 2.04
-    - _Albedo_Contrast: 0.989
-    - _Albedo_Multiply_AO: 1
-    - _Albedo_Settings_Activate: 1
-    - _MicroDetail_Normal_Scale: -5.73
-    - _Normal_Strength: 2
+    m_Floats: []
     m_Colors: []
   m_BuildTextureStacks: []
 --- !u!114 &8350595239635552828
