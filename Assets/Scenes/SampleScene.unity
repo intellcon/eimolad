@@ -15,7 +15,7 @@ RenderSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 9
   m_Fog: 1
-  m_FogColor: {r: 0.36231756, g: 0.39097548, b: 0.4339623, a: 1}
+  m_FogColor: {r: 0.4627451, g: 0.5019608, b: 0.5294118, a: 1}
   m_FogMode: 2
   m_FogDensity: 0.005
   m_LinearFogStart: 0
@@ -10922,7 +10922,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 681439003}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.118249, y: -0.0000016564705, z: 0.00000019725998, w: 0.992984}
+  m_LocalRotation: {x: 0.11824898, y: -0.0000016911836, z: 0.00000020139372, w: 0.992984}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -14808,7 +14808,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.08210085, y: -0.0000017150509, z: 0.00000014128412, w: 0.99662405}
+  m_LocalRotation: {x: 0.08210085, y: -0.0000016464577, z: 0.00000013563348, w: 0.99662405}
   m_LocalPosition: {x: 0.000042822452, y: 3.0673034, z: -12.696052}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -25683,7 +25683,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1664178601}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.08210085, y: -0.0000016979026, z: 0.00000013987145, w: 0.99662405}
+  m_LocalRotation: {x: 0.08210085, y: -0.000001663606, z: 0.00000013704614, w: 0.99662405}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -31309,13 +31309,14 @@ MonoBehaviour:
       UVOverride: {x: 1, y: 1, z: 0, w: 0}
       controlTextures:
       - {fileID: 2800000, guid: 226879c04ac3486449edb140c58b7469, type: 3}
+      - {fileID: 2800000, guid: 67031e7e05b437644a836a16a5f0d18d, type: 3}
       displacementDampening: {fileID: 0}
       streamTex: {fileID: 0}
       tint: {fileID: 0}
       bUVRangeOverride: 0
       uvRange: {x: 0.00545295, y: 0.0007064761, z: 0.987057, w: 0.99459434}
     matInstance: {fileID: 0}
-    oldKey: -7210072464664918172
+    oldKey: 1033971441354710308
 --- !u!64 &1984050568
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -118401,7 +118402,7 @@ MonoBehaviour:
       bUVRangeOverride: 0
       uvRange: {x: 0.00390625, y: 0.00390625, z: 0.9918703, w: 0.99609375}
     matInstance: {fileID: 0}
-    oldKey: -4818343497339719900
+    oldKey: 1084899262355427108
 --- !u!4 &8832739781655059391
 Transform:
   m_ObjectHideFlags: 0
