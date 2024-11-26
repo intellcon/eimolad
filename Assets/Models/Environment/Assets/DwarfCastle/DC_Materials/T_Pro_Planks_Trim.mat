@@ -41,11 +41,10 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _AO_Intensity: 1.5
     - _AO_Settings_Activate: 1
     - _Activate_MicroDetail_Normal: 0
-    - _Albedo_Brightness: 2.97
-    - _Albedo_Contrast: 0.5
+    - _Albedo_Brightness: 2.51
+    - _Albedo_Contrast: 1.176
     - _Albedo_Multiply_AO: 1
     - _Albedo_Settings_Activate: 1
     - _Gloss_Setting_Activation: 1
@@ -54,8 +53,7 @@ Material:
     - _Noise_Scale: 1
     - _Normal_Strength: 1
     m_Colors:
-    - _Albedo_Tint: {r: 0.7924528, g: 0.7924528, b: 0.7924528, a: 0}
-    - _Emissive_Color_Multiply: {r: 1, g: 1, b: 1, a: 0}
+    - _Albedo_Tint: {r: 1, g: 1, b: 1, a: 0}
   m_BuildTextureStacks: []
 --- !u!114 &5691607224670368773
 MonoBehaviour:
